@@ -1,6 +1,6 @@
 {
   "name": "ght",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "ght is a envented language, this language invent by my love <3 for send geeky love secure messagge to me I write script by javascript for decode and encode ght language ght Language Encoder/Decoder Convert persian to ght language and vice versa",
   "main": "dist/ght.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "encode",
     "decode"
   ],
-  "author": "Touhid Arastu <touhid.arastu@gmail.com> (http://arastu.ir)",
+  "author": "Touhid Arastu <touhid.arastu@gmail.com> (http://arastu.ir/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/arastu/ght/issues"
