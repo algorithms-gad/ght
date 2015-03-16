@@ -16,7 +16,7 @@
     "encode",
     "decode"
   ],
-  "author": "Touhid Arastu",
+  "author": "Touhid Arastu <touhid.arastu@gmail.com> (http://arastu.ir)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/arastu/ght/issues"
