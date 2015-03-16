@@ -9,7 +9,9 @@ GT Language Encoder/Decoder Convert persian to gt language and vice versa
 #Installation
 
 ```Node.js npm install gt```
+
 ```Require.js require(["gt"], ...```
+
 ```Bower bower install gt```
 
 #Examples
