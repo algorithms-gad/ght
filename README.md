@@ -6,6 +6,12 @@ GT is a invented language, this language create by my love for send geeky love s
 This library is a gift to my love.
 GT Language Encoder/Decoder Convert persian to gt language and vice versa
 
+#Downloads (Right-click, and use "Save As")
+
+ Version 1.0.0 [Source code (zip)](https://github.com/arastu/gt/archive/1.0.0.zip)
+ 
+ Version 1.0.0 [Source code (tar.gz)](https://github.com/arastu/gt/archive/1.0.0.tar.gz)
+ 
 #Installation
 
 ```Node.js npm install gt```
