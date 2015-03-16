@@ -1,30 +1,30 @@
-# gtcode
+# ght
 
-GT Language Encoder/Decoder 
+ght Language Encoder/Decoder
 
-GT is a invented language, this language create by my love for send geeky love secure message to me
+ght is a invented language, this language create by my love for send geeky love secure message to me
 This library is a gift to my love.
-GT Language Encoder/Decoder Convert persian to gt language and vice versa
+ght Language Encoder/Decoder Convert persian to ght language and vice versa
 
 #Downloads (Right-click, and use "Save As")
 
- Version 1.0.0 [Source code (zip)](https://github.com/arastu/gt/archive/1.0.0.zip)
- 
- Version 1.0.0 [Source code (tar.gz)](https://github.com/arastu/gt/archive/1.0.0.tar.gz)
- 
+ Version 1.0.0 [Source code (zip)](https://github.com/arastu/ght/archive/1.0.0.zip)
+
+ Version 1.0.0 [Source code (tar.gz)](https://github.com/arastu/ght/archive/1.0.0.tar.gz)
+
 #Installation
 
-```Node.js npm install gt```
+```Node.js npm install ght```
 
-```Require.js require(["gt"], ...```
+```Require.js require(["ght"], ...```
 
-```Bower bower install gt```
+```Bower bower install ght```
 
 #Examples
 
 encode:
 ```javascript
-gt.encoder('دوست دارم')
+ght.encoder('دوست دارم')
 ```
 return:
 ```html
@@ -33,7 +33,7 @@ j4od jal2
 
 decode:
 ```javascript
-gt.decoder('j4od jal2')
+ght.decoder('j4od jal2')
 ```
 
 return:

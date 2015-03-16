@@ -2,27 +2,27 @@
   // Establish the root object, `window` in the browser, or `exports` on the server.
   var root = this;
 
-  // Create a safe reference to the gt object for use below.
-  var gt = function (obj) {
-    if (obj instanceof gt) return obj;
-    if (!(this instanceof gt)) return new gt(obj);
+  // Create a safe reference to the ght object for use below.
+  var ght = function (obj) {
+    if (obj instanceof ght) return obj;
+    if (!(this instanceof ght)) return new ght(obj);
     this._wrapped = obj;
   };
 
-  // Export the gt object for **Node.js**, with
+  // Export the ght object for **Node.js**, with
   // backwards-compatibility for the old `require()` API. If we're in
-  // the browser, add `gt` as a global object.
+  // the browser, add `ght` as a global object.
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
-      exports = module.exports = gt;
+      exports = module.exports = ght;
     }
-    exports.gt = gt;
+    exports.ght = ght;
   } else {
-    root.gt = gt;
+    root.ght = ght;
   }
 
   // Current version.
-  gt.VERSION = '1.0.0';
+  ght.VERSION = '1.0.0';
 
   //English and Persian characters
   var enChars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
@@ -32,7 +32,7 @@
     return char === ' ';
   };
 
-  gt.decoder = function (input) {
+  ght.decoder = function (input) {
     var decodeStr = [];
 
     for (var i in input) {
@@ -56,7 +56,7 @@
     return decodeStr.join('');
   };
 
-  gt.encoder = function (input) {
+  ght.encoder = function (input) {
     var encodeStr = [];
 
     for (var i in input) {
@@ -78,14 +78,14 @@
 
   // AMD registration happens at the end for compatibility with AMD loaders
   // that may not enforce next-turn semantics on modules. Even though general
-  // practice for AMD registration is to be anonymous, gt registers
+  // practice for AMD registration is to be anonymous, ght registers
   // as a named module because, like jQuery, it is a base library that is
   // popular enough to be bundled in a third party lib, but not be part of
   // an AMD load request. Those cases could generate an error when an
   // anonymous define() is called outside of a loader request.
   if (typeof define === 'function' && define.amd) {
-    define('gt', [], function() {
-      return gt;
+    define('ght', [], function() {
+      return ght;
     });
   }
 }.call(this));

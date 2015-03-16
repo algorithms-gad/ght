@@ -1,10 +1,10 @@
 {
-  "name": "gt",
-  "main": "gt.js",
+  "name": "ght",
+  "main": "ght.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/arastu/gt",
-  "main": "dist/gt.js",
-  "description": "GT is a envented language, this language invent by my love <3 for send geeky love secure messagge to me I write script by javascript for decode and encode gt language GT Language Encoder/Decoder Convert persian to gt language and vice versa",
+  "homepage": "https://github.com/arastu/ght",
+  "main": "dist/ght.js",
+  "description": "ght is a envented language, this language invent by my love <3 for send geeky love secure messagge to me I write script by javascript for decode and encode ght language ght Language Encoder/Decoder Convert persian to ght language and vice versa",
   "keywords": [
     "love",
     "encode",
