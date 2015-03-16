@@ -7,9 +7,9 @@ gulp.task('build', function() {
   //gulp.src('src/gt.js')
   //  .pipe(gulp.dest('dist'));
 
-  gulp.src('src/ght.js')
+  gulp.src('dist/gt.js')
     .pipe(gulp.dest('dist'))
     .pipe(uglify())
-    .pipe(rename('ght.min.js'))
+    .pipe(rename('gt.min.js'))
     .pipe(gulp.dest('dist'));
 });
