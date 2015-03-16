@@ -1,0 +1,30 @@
+{
+  "name": "gt",
+  "version": "1.0.0",
+  "description": "GT is a envented language, this language invent by my love <3 for send geeky love secure messagge to me I write script by javascript for decode and encode gt language GT Language Encoder/Decoder Convert persian to gt language and vice versa",
+  "main": "dist/gt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://arastu@github.com/arastu/gt.git"
+  },
+  "keywords": [
+    "gt",
+    "love",
+    "encode",
+    "decode"
+  ],
+  "author": "Touhid Arastu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arastu/gt/issues"
+  },
+  "homepage": "https://github.com/arastu/gt",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0"
+  }
+}
