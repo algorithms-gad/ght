@@ -2,23 +2,20 @@
 
 GT Language Encoder/Decoder 
 
-GT is a envented language, this language invent by my love <3 for send geeky love secure messagge to me
-I write script by javascript for decode and encode gt language
+GT is a invented language, this language create by my love for send geeky love secure message to me
+This library is a gift to my love.
 GT Language Encoder/Decoder Convert persian to gt language and vice versa
 
-#Usage
+#Installation
 
-download the package and reference the JavaScript file manually:
-
-```html
-<script src="path/to/gt.js"></script>
-```
+```Node.js npm install gt```
+```Require.js require(["gt"], ...```
+```Bower bower install gt```
 
 #Examples
 
 encode:
 ```javascript
-var gt = new GT();
 gt.encoder('دوست دارم')
 ```
 return:
@@ -28,7 +25,6 @@ j4od jal2
 
 decode:
 ```javascript
-var gt = new GT();
 gt.decoder('j4od jal2')
 ```
 
