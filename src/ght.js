@@ -22,7 +22,7 @@
   }
 
   // Current version.
-  ght.VERSION = '1.1.2';
+  ght.VERSION = '2.0.0';
 
   //English and Persian characters
   var enChars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
@@ -31,8 +31,8 @@
   var isSpace = function (char) {
     return char === ' ';
   };
-
-  ght.decoder = function (input) {
+  
+  ght.decode = function (input) {
     var decodeStr = [];
 
     for (var i in input) {
@@ -56,7 +56,7 @@
     return decodeStr.join('');
   };
 
-  ght.encoder = function (input) {
+  ght.encode = function (input) {
     var encodeStr = [];
 
     for (var i in input) {
