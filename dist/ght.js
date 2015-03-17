@@ -22,7 +22,7 @@
   }
 
   // Current version.
-  ght.VERSION = '2.0.0';
+  ght.VERSION = '2.1.0';
 
   //English and Persian characters
   var enChars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'],
@@ -75,6 +75,15 @@
 
     return encodeStr.join('');
   };
+
+  // Register ght angular module
+  // ght service avilable
+  if (typeof angular === 'object') {
+    angular.module('ght', [])
+      .service('ght', function () {
+        return ght;
+      });
+  }
 
   // AMD registration happens at the end for compatibility with AMD loaders
   // that may not enforce next-turn semantics on modules. Even though general

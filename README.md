@@ -10,9 +10,9 @@ ght Language Encoder/Decoder Convert persian to ght language and vice versa
 
 #Downloads (Right-click, and use "Save As")
 
- Version 2.0.0 [Source code (zip)](https://github.com/arastu/ght/archive/2.0.0.zip)
+ Version 2.1.0 [Source code (zip)](https://github.com/arastu/ght/archive/2.1.0.zip)
 
- Version 2.0.0 [Source code (tar.gz)](https://github.com/arastu/ght/archive/2.0.0.tar.gz)
+ Version 2.1.0 [Source code (tar.gz)](https://github.com/arastu/ght/archive/2.1.0.tar.gz)
 
 #Installation
 
@@ -22,6 +22,7 @@ ght Language Encoder/Decoder Convert persian to ght language and vice versa
 
 ```Bower bower install ght```
 
+```Angular.js angular.module('yourApp', ['ght'])...```
 #Examples
 
 encode:
