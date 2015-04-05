@@ -1,10 +1,10 @@
 {
   "name": "ght",
   "main": "ght.js",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "homepage": "https://github.com/arastu/ght",
   "main": "dist/ght.js",
-  "description": "ght is a envented language, this language invent by my love <3 for send geeky love secure messagge to me I write script by javascript for decode and encode ght language ght Language Encoder/Decoder Convert persian to ght language and vice versa",
+  "description": "ght is a invented language, this language create by my love for send geeky love secure message to me This library is a gift to my love. ght Language Encoder/Decoder Convert persian to ght language and vice versa.",
   "keywords": [
     "love",
     "encode",
