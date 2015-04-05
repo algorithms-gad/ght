@@ -1,6 +1,6 @@
 {
   "name": "ght",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "ght is a invented language, this language create by my love for send geeky love secure message to me This library is a gift to my love. ght Language Encoder/Decoder Convert persian to ght language and vice versa.",
   "main": "dist/ght.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "ght",
     "love",
     "encode",
-    "decode"
+    "decode",
+    "persian",
+    "farsi"
   ],
   "author": "Touhid Arastu <touhid.arastu@gmail.com> (http://arastu.ir/)",
   "license": "MIT",

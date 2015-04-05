@@ -10,9 +10,9 @@ ght Language Encoder/Decoder Convert persian to ght language and vice versa
 
 #Downloads (Right-click, and use "Save As")
 
- Version 2.1.1 [Source code (zip)](https://github.com/arastu/ght/archive/2.1.1.zip)
+ Version 2.1.2 [Source code (zip)](https://github.com/arastu/ght/archive/2.1.2.zip)
 
- Version 2.1.1 [Source code (tar.gz)](https://github.com/arastu/ght/archive/2.1.1.tar.gz)
+ Version 2.1.2 [Source code (tar.gz)](https://github.com/arastu/ght/archive/2.1.2.tar.gz)
 
 #Installation
 
